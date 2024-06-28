@@ -126,6 +126,7 @@ USE_TZ = True
 
 STATIC_URL = 'static/'
 STATICFILES_DIRS = [r'C:\Users\DUVAN\Documents\Python\PYTHON II\Mascotas\Bd_mascotas\static\Bd_mascotas']
+STATIC_ROOT = BASE_DIR / 'static_root'
 MEDIA_URL= 'Media/'
 MEDIA_ROOT= os.path.join(BASE_DIR, 'Media')
 
