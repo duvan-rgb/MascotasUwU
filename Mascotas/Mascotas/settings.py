@@ -82,11 +82,10 @@ WSGI_APPLICATION = 'Mascotas.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
-        'NAME':'mascota',
-        'USER':'root',
-        'PASSWORD':'0000',
-        'HOST':'localhost',
-        'PORT':3306,
+        'NAME':'PetFriends$default',
+        'USER':'PetFriends',
+        'PASSWORD':'duvan0000',
+        'HOST':'PetFriends.mysql.pythonanywhere-services.com',
     }
 }
 
